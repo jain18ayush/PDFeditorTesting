@@ -1,4 +1,12 @@
 [[package]]
+name = "pymupdf"
+version = "1.21.1"
+description = "Python bindings for the PDF toolkit and renderer MuPDF"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "pypdf2"
 version = "1.26.0"
 description = "PDF toolkit"
@@ -9,9 +17,8 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "47552fb8879142ba98255997860bd417b9997497d25e078e5aac794709c0278a"
+content-hash = "6117e5fa23a270be0790f0f138030114279452e21830b61611e2bca302a170e6"
 
 [metadata.files]
-pypdf2 = [
-    {file = "PyPDF2-1.26.0.tar.gz", hash = "sha256:e28f902f2f0a1603ea95ebe21dff311ef09be3d0f0ef29a3e44a932729564385"},
-]
+pymupdf = []
+pypdf2 = []
